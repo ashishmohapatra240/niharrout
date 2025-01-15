@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 @layer base {
+  html {
+    scroll-behavior: smooth;
+  }
 
   /* Base styles */
   body {
@@ -67,5 +70,15 @@
   .text-body-12 {
     font-size: 12px;
     line-height: 150%;
+  }
+
+  .max-w-7xl {
+    max-width: 80rem;
+  }
+
+  .text-gradient {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 }
