@@ -32,9 +32,9 @@ const projects = [
   },
 ];
 
-const Works = () => {
+export default function Works() {
   return (
-    <section className="py-20 px-6 md:px-12 lg:px-24">
+    <section id="works" className="py-20 px-6 md:px-12 lg:px-24">
       <div className="max-w-7xl mx-auto">
         <div className="flex justify-between items-center mb-16">
           <motion.h2
@@ -64,6 +64,4 @@ const Works = () => {
       </div>
     </section>
   );
-};
-
-export default Works;
+}
