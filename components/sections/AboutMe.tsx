@@ -4,10 +4,10 @@ import AnimatedNumber from "@/components/ui/AnimatedNumber";
 import { motion } from "framer-motion";
 
 const statsData = [
-  { value: 5, suffix: "+", label: "Years of Experience" },
-  { value: 50, suffix: "+", label: "Projects Completed" },
+  { value: 8, suffix: "+", label: "Years of Experience" },
+  { value: 250, suffix: "+", label: "Projects Completed" },
   { value: 30, suffix: "+", label: "Happy Clients" },
-  { value: 100, suffix: "%", label: "Client Satisfaction" },
+  { value: 99, suffix: "%", label: "Customer Satisfaction" },
 ];
 
 const AboutMe = () => {
