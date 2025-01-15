@@ -1,4 +1,5 @@
 import Navbar from "@/components/layout/Navbar";
+import Footer from "@/components/layout/Footer";
 import "./globals.css";
 import { Inter_Tight } from "next/font/google";
 import { Metadata } from "next";
@@ -25,6 +26,7 @@ export default function RootLayout({
       <body className={`${interTight.variable} font-inter-tight`}>
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );
