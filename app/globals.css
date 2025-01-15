@@ -2,20 +2,70 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@layer base {
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  /* Base styles */
+  body {
+    @apply bg-neutral-0 text-neutral-100 overflow-x-hidden;
+    letter-spacing: -0.02em;
+  }
+
+  /* Heading styles */
+  h1 {
+    @apply text-[56px] md:text-[104px] font-semibold leading-tight;
+    letter-spacing: -0.04em;
+  }
+
+  h2 {
+    @apply text-[48px] md:text-[72px] font-semibold leading-tight;
+    letter-spacing: -0.02em;
+  }
+
+  h3 {
+    @apply text-[40px] md:text-[64px] font-semibold leading-tight;
+    letter-spacing: -0.02em;
+  }
+
+  h4 {
+    @apply text-[32px] md:text-[56px] font-semibold leading-tight;
+    letter-spacing: -0.01em;
+  }
+
+  h5 {
+    @apply text-[28px] md:text-[40px] font-semibold leading-tight;
+    letter-spacing: -0.01em;
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+/* Utility classes for body text */
+@layer utilities {
+  .text-body-28 {
+    font-size: 28px;
+    line-height: 120%;
+  }
+
+  .text-body-22 {
+    font-size: 22px;
+    line-height: 130%;
+  }
+
+  .text-body-18 {
+    font-size: 18px;
+    line-height: 150%;
+  }
+
+  .text-body-16 {
+    font-size: 16px;
+    line-height: 150%;
+  }
+
+  .text-body-14 {
+    font-size: 14px;
+    line-height: 150%;
+  }
+
+  .text-body-12 {
+    font-size: 12px;
+    line-height: 150%;
+  }
 }
