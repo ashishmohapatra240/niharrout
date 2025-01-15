@@ -39,7 +39,7 @@ const Navbar = () => {
                 {link.label}
               </Link>
             ))}
-            <Button href="#contact" variant="secondary">
+            <Button href="https://calendly.com/niharrout/book-call" variant="secondary">
               Let&apos;s Talk
             </Button>
           </div>

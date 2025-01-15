@@ -19,7 +19,7 @@ const Hero = () => {
 
             <div className="flex justify-center lg:justify-start">
               <Button
-                href="#contact"
+                href="https://calendly.com/niharrout/book-call"
                 variant="primary"
                 className="h-12 sm:h-14 md:h-16 w-32 sm:w-34 md:w-36 text-body-16 sm:text-body-18 md:text-body-22 whitespace-nowrap"
               >
