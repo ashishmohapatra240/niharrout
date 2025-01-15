@@ -14,21 +14,21 @@ const articles: Article[] = [
     date: "April 6, 2023",
     excerpt:
       "In today's world, technology plays a vital role in every aspect of our lives, and businesses are no exception. With the rapid advancement of technology, every business owner must have...",
-    link: "https://niharrout.medium.com/does-your-business-need-software-technology-is-future-f2cb0777a2b9",
+    link: "https://niharrout.medium.com/does-your-business-need-software-1da02bb4da56",
   },
   {
     title: "5 reasons why businesses need mobile apps",
     date: "Feb 4, 2023",
     excerpt:
       "A customized mobile application can cut down a huge amount of cost in long run. It can increase your employee efficiency, create effective engagement with the customer, streamline th...",
-    link: "https://niharrout.medium.com/5-reasons-why-businesses-need-mobile-apps-d0e0785dc425",
+    link: "https://niharrout.medium.com/5-reasons-why-businesses-need-mobile-apps-29117f090cb8",
   },
   {
     title: "About Nihar: The Story Behind Your Next Trusted Software Partner",
     date: "Apr 3, 2023",
     excerpt:
       "Every business, no matter its size or industry, faces challenges — challenges that often require a smart, efficient, and scalable technology solution. If you're reading this, it's because you're...",
-    link: "https://niharrout.medium.com/about-nihar-the-story-behind-your-next-trusted-software-partner-2d6c8c1b9e57",
+    link: "https://niharrout.medium.com/about-nihar-the-story-behind-your-next-trusted-software-partner-3dc7ab30ded3",
   },
 ];
 
