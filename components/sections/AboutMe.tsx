@@ -16,7 +16,7 @@ const AboutMe = () => {
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Left Column - Text Content */}
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -53,10 +53,7 @@ const AboutMe = () => {
                 className="space-y-2"
               >
                 <h3 className="text-4xl md:text-5xl font-medium">
-                  <AnimatedNumber 
-                    value={stat.value} 
-                    suffix={stat.suffix}
-                  />
+                  <AnimatedNumber value={stat.value} suffix={stat.suffix} />
                 </h3>
                 <p className="text-neutral-600">{stat.label}</p>
               </motion.div>
