@@ -63,15 +63,15 @@ const WorkingProcedure = () => {
   const [activeStep, setActiveStep] = useState<number | null>(null);
 
   return (
-    <section className="py-20 px-6 md:px-12 lg:px-24">
-      <div className="max-w-4xl">
+    <section className="py-20 px-4 sm:px-6 md:px-12 lg:px-24">
+      <div className="max-w-4xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           className="mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-medium mb-4">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-medium mb-4">
             Working Procedure
           </h2>
           <p className="text-neutral-600 max-w-2xl">
@@ -81,11 +81,11 @@ const WorkingProcedure = () => {
           </p>
         </motion.div>
 
-        <div className="relative w-[600px] mx-auto flex justify-center">
+        <div className="relative w-full max-w-[600px] mx-auto flex justify-center">
           {/* Vertical line */}
           <div className="absolute left-[27px] top-0 bottom-0 w-px bg-neutral-200" />
 
-          <div className="space-y-12">
+          <div className="space-y-12 w-full">
             {steps.map((step, index) => (
               <motion.div
                 key={step.title}
@@ -97,7 +97,7 @@ const WorkingProcedure = () => {
                 onMouseEnter={() => setActiveStep(index)}
                 onMouseLeave={() => setActiveStep(null)}
               >
-                <div className="flex gap-12">
+                <div className="flex gap-4 sm:gap-8 md:gap-12">
                   {/* Number and dot */}
                   <div className="relative flex-shrink-0 w-14">
                     <div
@@ -124,8 +124,8 @@ const WorkingProcedure = () => {
                       activeStep === index ? "-translate-y-0.5" : ""
                     }`}
                   >
-                    <h3 className="text-xl font-medium mb-2">{step.title}</h3>
-                    <p className="text-neutral-600 text-md leading-relaxed">
+                    <h3 className="text-lg sm:text-xl font-medium mb-2">{step.title}</h3>
+                    <p className="text-neutral-600 text-sm sm:text-md leading-relaxed">
                       {step.description}
                     </p>
                   </div>
