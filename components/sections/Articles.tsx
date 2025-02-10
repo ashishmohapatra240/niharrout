@@ -36,7 +36,7 @@ export default function Articles() {
   return (
     <section id="insights" className="py-20 px-4 md:px-6 lg:px-8 max-w-7xl mx-auto">
       <div className="mb-12">
-        <h2 className="text-5xl font-bold mb-4">
+        <h2 className="text-5xl font-medium mb-4">
           Sometimes, I also write
           <br />
           and share some insights

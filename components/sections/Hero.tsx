@@ -8,9 +8,9 @@ const Hero = () => {
         <div className="grid lg:grid-cols-2 gap-8 md:gap-12 items-center">
           <div className="space-y-6 md:space-y-8 order-2 lg:order-1 text-center lg:text-left">
             <div className="w-full lg:w-[90%] xl:w-[100%]">
-              <h1 className="text-[40px] sm:text-[48px] md:text-[56px] lg:text-[64px] font-bold leading-[40px] sm:leading-[48px] md:leading-[56px] lg:leading-[64px] text-neutral-40">
+              <h1 className="text-[40px] sm:text-[48px] md:text-[56px] lg:text-[64px] font-bold leading-[40px] sm:leading-[48px] md:leading-[56px] lg:leading-[64px] text-neutral-100">
                 I&apos;m Nihar,{" "}
-                <span className="text-neutral-100">
+                <span className="text-neutral-100 font-medium">
                   helping businesses and founders build scalable digital
                   products
                 </span>
