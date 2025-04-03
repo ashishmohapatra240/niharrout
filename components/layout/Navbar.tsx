@@ -9,10 +9,22 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navLinks = [
-    { href: "https://www.linkedin.com/in/niharrout/", label: "LINKEDIN" },
-    { href: "tel:+917608844995", label: "PHONE" },
-    { href: "mailto:nihar@creuto.com", label: "EMAIL" },
+    { href: "#about", label: "ABOUT" },
+    { href: "#works", label: "WORKS" },
+    { href: "#services", label: "SERVICES" },
+    { href: "#contact", label: "CONTACT" },
   ];
+
+  // Function to handle smooth scrolling
+  const handleScroll = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
+    e.preventDefault();
+    const targetId = href.replace("#", "");
+    const element = document.getElementById(targetId);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+      setIsMenuOpen(false); // Close mobile menu after clicking
+    }
+  };
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md">
@@ -31,13 +43,14 @@ const Navbar = () => {
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-8">
             {navLinks.map((link) => (
-              <Link
+              <a
                 key={link.label}
                 href={link.href}
-                className="text-body-16 text-neutral-60 hover:text-neutral-100 transition-colors"
+                onClick={(e) => handleScroll(e, link.href)}
+                className="text-body-16 text-neutral-60 hover:text-neutral-100 transition-colors cursor-pointer"
               >
                 {link.label}
-              </Link>
+              </a>
             ))}
             <Button href="https://calendly.com/niharrout/book-call" variant="secondary">
               Let&apos;s Talk
@@ -68,15 +81,16 @@ const Navbar = () => {
               {" "}
               {/* Increased gap between items */}
               {navLinks.map((link) => (
-                <Link
+                <a
                   key={link.label}
                   href={link.href}
-                  className="text-body-16 text-neutral-60 hover:text-neutral-100 transition-colors"
+                  onClick={(e) => handleScroll(e, link.href)}
+                  className="text-body-16 text-neutral-60 hover:text-neutral-100 transition-colors cursor-pointer"
                 >
                   {link.label}
-                </Link>
+                </a>
               ))}
-              <Button href="#contact" variant="secondary">
+              <Button href="https://calendly.com/niharrout/book-call" variant="secondary">
                 Let&apos;s Talk
               </Button>
             </div>
