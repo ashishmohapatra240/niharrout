@@ -66,11 +66,9 @@ const TechStack = () => {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-4xl md:text-5xl font-medium mb-16"
+          className="text-4xl md:text-5xl font-medium mb-16 max-w-2xl"
         >
-          The Transformative Tech Stack
-          <br />
-          your Business Needs
+          The Transformative Tech Stack your Business Needs
         </motion.h2>
 
         <div className="space-y-16">

@@ -10,19 +10,19 @@ const steps = [
     number: "01",
   },
   {
-    title: "In-Depth Discussion",
+    title: "In-Depth Discussion and Ballpark Estimation",
     description:
       "After understanding the basics of your project, we will connect for a detailed meeting to discuss your requirements, competitors, and expectations. I will analyze the details to prepare further documentation.",
     number: "02",
   },
   {
-    title: "Final Commercial Proposal",
+    title: "Final Commercial Proposal and Documentation",
     description:
       "In this phase, I will provide comprehensive documents, including the project scope, cost breakdown, user stories, and milestones.",
     number: "03",
   },
   {
-    title: "Design: UI & UX",
+    title: "Design: User Interface (UI) & User Experience (UX)",
     description:
       "Focusing on the project scope, user group, and future needs, I will begin designing user-friendly, responsive screens for your project. Each page will be verified by you before moving forward.",
     number: "04",
@@ -40,7 +40,7 @@ const steps = [
     number: "06",
   },
   {
-    title: "Deployment & Launch",
+    title: "Deployment & Final Launch",
     description:
       "After completing the development sprints and quality testing, we deploy the product to the live server and app stores.",
     number: "07",
@@ -54,7 +54,7 @@ const steps = [
   {
     title: "Growth Hacking",
     description:
-      "Your success leads to my success. I'll help with growth strategies, creative marketing, SEO, and connect you with potential partners to expand your product's reach.",
+      "Your success leads to my success. I’ll help with growth strategies, creative marketing, SEO, and connect you with potential partners to expand your product's reach.",
     number: "09",
   },
 ];
@@ -74,7 +74,7 @@ const WorkingProcedure = () => {
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-medium mb-4">
             Working Procedure
           </h2>
-          <p className="text-neutral-600 max-w-2xl">
+          <p className="text-lg text-neutral-600 max-w-2xl tracking-normal leading-relaxed">
             I approach each challenge with a combination of technical
             proficiency and creative problem-solving, ensuring projects are
             delivered on time and to the highest standards.
@@ -124,8 +124,10 @@ const WorkingProcedure = () => {
                       activeStep === index ? "-translate-y-0.5" : ""
                     }`}
                   >
-                    <h3 className="text-lg sm:text-xl font-medium mb-2">{step.title}</h3>
-                    <p className="text-neutral-600 text-sm sm:text-md leading-relaxed">
+                    <h3 className="text-lg sm:text-2xl font-medium mb-2">
+                      {step.title}
+                    </h3>
+                    <p className="text-neutral-600 text-md sm:text-lg leading-relaxed tracking-normal">
                       {step.description}
                     </p>
                   </div>
