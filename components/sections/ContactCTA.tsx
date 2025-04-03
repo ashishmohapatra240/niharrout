@@ -20,14 +20,24 @@ export default function ContactCTA() {
             </Link>
           ))}
         </nav>
-        <h2 className="text-[64px] md:text-[120px] font-bold leading-[0.95] mb-12">
-          <span className="text-neutral-90">Want to create</span>
+        <h2 className="text-[64px] md:text-[100px] font-bold leading-[0.95] mb-8 max-w-7xl">
+          <span className="text-neutral-40">Some dreams feel too big,</span>
           <br />
-          <span className="text-neutral-90">something </span>
-          <span className="text-neutral-40">awesome?</span>
+          <span className="text-neutral-90">
+            too distant—almost untouchable.
+          </span>
         </h2>
-        <Button href="https://calendly.com/niharrout/book-call" variant="primary">
-          Let&apos;s Talk
+        <p className="max-w-7xl text-neutral-60 text-xl mb-12">
+          But I believe every great creation starts with a single step, a moment
+          of courage to bring an idea to life. Not everyone sees the magic in a
+          vision, but together, we can shape it into something real, something
+          extraordinary. Are you ready to take that leap?
+        </p>
+        <Button
+          href="https://calendly.com/niharrout/book-call"
+          variant="primary"
+        >
+          Start Dreaming
         </Button>
       </div>
     </section>
