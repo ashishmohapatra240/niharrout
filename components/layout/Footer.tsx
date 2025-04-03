@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import Button from "../ui/Button";
 
 const socialLinks = [
   {
@@ -72,30 +73,12 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-16 gap-8">
           <h2 className="text-3xl md:text-4xl">Stay connected w/ me.</h2>
           <div className="w-full md:w-auto">
-            <form className="flex items-center gap-2 border-b border-neutral-60 pb-2 group focus-within:border-neutral-0">
-              <input
-                type="email"
-                placeholder="Enter your email"
-                className="bg-transparent outline-none flex-1 text-neutral-0 placeholder:text-neutral-60"
-              />
-              <button
-                type="submit"
-                className="p-2 hover:bg-neutral-90 rounded-full transition-colors"
-              >
-                <svg
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M14.2929 5.29289C14.6834 4.90237 15.3166 4.90237 15.7071 5.29289L21.7071 11.2929C22.0976 11.6834 22.0976 12.3166 21.7071 12.7071L15.7071 18.7071C15.3166 19.0976 14.6834 19.0976 14.2929 18.7071C13.9024 18.3166 13.9024 17.6834 14.2929 17.2929L18.5858 13H3C2.44772 13 2 12.5523 2 12C2 11.4477 2.44772 11 3 11H18.5858L14.2929 6.70711C13.9024 6.31658 13.9024 5.68342 14.2929 5.29289Z"
-                    fill="currentColor"
-                  />
-                </svg>
-              </button>
-            </form>
+            <Button
+              href="https://calendly.com/niharrout/book-call"
+              variant="secondary"
+            >
+              Book a Call
+            </Button>
           </div>
         </div>
 
