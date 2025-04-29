@@ -19,7 +19,7 @@ const Button = ({
   ...props
 }: ButtonProps) => {
   const baseStyles =
-    "flex items-center gap-2 transition-all duration-300 overflow-hidden";
+    "flex items-center justify-center gap-2 transition-all duration-300 overflow-hidden";
   const variants = {
     primary:
       "bg-neutral-100 hover:bg-neutral-60 text-white px-6 py-3 rounded-full relative after:absolute after:inset-0 after:bg-neutral-90 after:translate-x-[-100%] hover:after:translate-x-0 after:transition-transform after:duration-300 after:ease-in-out",
