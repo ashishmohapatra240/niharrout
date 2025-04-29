@@ -9,7 +9,7 @@ const projects = [
     date: "March 2024",
     description: "A comprehensive platform addressing India's employment landscape by connecting qualified candidates with companies. Features include Super Filter for precise job matching, Smart Matching algorithm, E-Interview capabilities, and multilingual support in English, Hindi, and Odia. The platform streamlines the hiring process with innovative features like job alerts and efficient application management.",
     tags: ["Web", "Android", "iOS", "HR Tech"],
-    image: "/images/projects/Picture3.webp",
+    image: "/images/projects/workforce/workforce-cover.png",
     features: [
       "Super Filter for precise job matching",
       "Smart Matching algorithm",
@@ -25,7 +25,7 @@ const projects = [
     date: "February 2024",
     description: "A user-friendly marketplace application designed for local buying and selling. The platform addresses common pain points in existing solutions by providing comprehensive order tracking, enhanced user communication, and a robust trust-building system. Built with scalability in mind to handle growing user bases and listings.",
     tags: ["iOS", "Android", "E-Commerce"],
-    image: "/images/projects/Picture5.webp",
+    image: "/images/projects/marketplace/marketplace-cover.png",
     features: [
       "User-friendly interface",
       "Category and location filters",
@@ -41,7 +41,7 @@ const projects = [
     date: "January 2024",
     description: "A specialized FinTech solution for educational institutions to manage student fee payments. The platform features real-time payment tracking, automated fine systems, and timely notifications. It provides a seamless mobile-friendly experience for parents and students to manage payments from anywhere.",
     tags: ["Web", "Android", "iOS", "FinTech"],
-    image: "/images/projects/Picture4.webp",
+    image: "/images/projects/fintech/fintech-cover.png",
     features: [
       "Real-time payment tracking",
       "Automated fine system",
