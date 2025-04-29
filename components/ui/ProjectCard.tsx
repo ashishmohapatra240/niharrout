@@ -3,7 +3,7 @@ import { useState } from "react";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import Button from "@/components/ui/Button";
-import { ExternalLink, X } from "lucide-react";
+import { X } from "lucide-react";
 
 interface Project {
   id: number;
@@ -84,7 +84,6 @@ const ProjectCard = ({ project, index }: ProjectCardProps) => {
                 alt={project.title}
                 fill
                 className="object-cover transition-transform duration-500 group-hover:scale-110"
-                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               />
               <div
                 className="absolute inset-0 bg-black/0 group-hover:bg-black/20 
@@ -137,7 +136,7 @@ const ProjectCard = ({ project, index }: ProjectCardProps) => {
                   <Github className="w-5 h-5" />
                 </a>
               )} */}
-              {project.link && (
+              {/* {project.link && (
                 <a
                   href={project.link}
                   target="_blank"
@@ -146,7 +145,7 @@ const ProjectCard = ({ project, index }: ProjectCardProps) => {
                 >
                   <ExternalLink className="w-5 h-5" />
                 </a>
-              )}
+              )} */}
             </div>
           </div>
         </div>
