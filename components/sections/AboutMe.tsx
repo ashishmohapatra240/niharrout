@@ -82,10 +82,19 @@ export default function AboutMe() {
                 and a significant stride towards something extraordinary.
               </p>
             </div>
-            <div className="flex flex-wrap gap-4">
-              <Button href="/contact">Get in touch</Button>
-              <Button href="/projects" variant="secondary">
-                View Projects
+            <div className="flex flex-wrap gap-4 justify-center md:justify-start">
+              <Button
+                href="https://calendly.com/niharrout/book-call"
+                className="w-full md:w-auto"
+              >
+                Get in touch
+              </Button>
+              <Button
+                href="https://www.linkedin.com/in/niharrout"
+                variant="secondary"
+                className="w-full md:w-auto"
+              >
+                Know More
               </Button>
             </div>
           </motion.div>
