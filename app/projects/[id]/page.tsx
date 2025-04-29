@@ -86,12 +86,15 @@ const projects = [
   },
 ];
 
-export default function ProjectPage({ params }: { params: { id: string } }) {
-  const project = projects.find((p) => p.id === parseInt(params.id));
-  if (!project) {
-    notFound();
-  }
+export default async function ProjectPage({
+  params,
+}: {
+  params: Promise<{ id: string }>;
+}) {
+  const { id } = await params;
 
+  const project = projects.find((p) => p.id === Number(id));
+  if (!project) notFound();
   return (
     <main className="container mx-auto px-4 py-24">
       <div className="max-w-6xl mx-auto space-y-8">
