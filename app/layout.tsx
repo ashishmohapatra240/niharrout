@@ -12,14 +12,17 @@ const interTight = Inter_Tight({
 });
 
 export const metadata: Metadata = {
-  title: 'Nihar Ranjan Rout',
-  description: 'I\'m Nihar, a passionate technologist driven by innovation and a commitment to helping businesses thrive. As a skilled web designer, developer, and software architect, I specialize in crafting exceptional digital products that not only look great but also grow seamlessly alongside your ambitions. Throughout my journey, I have collaborated with a diverse range of business domains, guiding startups, medium-sized enterprises, and large-scale organizations in building and scaling their software products. My extensive knowledge and hands-on experience in the tech landscape have enabled me to deliver customized solutions that perfectly align with my client’s specific needs and aspirations.',
+  metadataBase: new URL("https://niharrout.com"),
+  title: "Nihar Ranjan Rout",
+  description:
+    "I'm Nihar, a passionate technologist driven by innovation and a commitment to helping businesses thrive. As a skilled web designer, developer, and software architect, I specialize in crafting exceptional digital products that not only look great but also grow seamlessly alongside your ambitions. Throughout my journey, I have collaborated with a diverse range of business domains, guiding startups, medium-sized enterprises, and large-scale organizations in building and scaling their software products. My extensive knowledge and hands-on experience in the tech landscape have enabled me to deliver customized solutions that perfectly align with my client’s specific needs and aspirations.",
   openGraph: {
-    title: 'Nihar Ranjan Rout',
-    description: 'I\'m Nihar, a passionate technologist driven by innovation and a commitment to helping businesses thrive. As a skilled web designer, developer, and software architect, I specialize in crafting exceptional digital products that not only look great but also grow seamlessly alongside your ambitions. Throughout my journey, I have collaborated with a diverse range of business domains, guiding startups, medium-sized enterprises, and large-scale organizations in building and scaling their software products. My extensive knowledge and hands-on experience in the tech landscape have enabled me to deliver customized solutions that perfectly align with my client’s specific needs and aspirations.',
+    title: "Nihar Ranjan Rout",
+    description:
+      "I'm Nihar, a passionate technologist driven by innovation and a commitment to helping businesses thrive. As a skilled web designer, developer, and software architect, I specialize in crafting exceptional digital products that not only look great but also grow seamlessly alongside your ambitions. Throughout my journey, I have collaborated with a diverse range of business domains, guiding startups, medium-sized enterprises, and large-scale organizations in building and scaling their software products. My extensive knowledge and hands-on experience in the tech landscape have enabled me to deliver customized solutions that perfectly align with my client’s specific needs and aspirations.",
     images: [
       {
-        url: '/images/og.png',
+        url: "/images/og.png",
         width: 1200,
         height: 630,
       },
