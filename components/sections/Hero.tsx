@@ -46,7 +46,7 @@ const Hero = () => {
             variant="secondary"
             className="px-8 py-3 rounded-full text-base md:text-lg w-fit hover:scale-105 transition-transform duration-300 mb-4"
           >
-            Get a free quote
+            Free Consultation
           </Button>
         </div>
       </div>

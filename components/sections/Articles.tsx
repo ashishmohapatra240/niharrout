@@ -42,7 +42,7 @@ export default function Articles() {
           and share some insights
         </h2>
         <div className="flex justify-end items-center">
-          <Button href="https://niharrout.medium.com/" variant="secondary">
+          <Button href="https://blog.niharrout.com/ " variant="secondary">
             View All Insights
           </Button>
         </div>
