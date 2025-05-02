@@ -42,7 +42,7 @@ const Hero = () => {
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row justify-center gap-4 items-center animate-fade-in-up delay-200">
           <Button
-            href="#portfolio"
+            href="https://calendly.com/niharrout/call"
             variant="secondary"
             className="px-8 py-3 rounded-full text-base md:text-lg w-fit hover:scale-105 transition-transform duration-300 mb-4"
           >

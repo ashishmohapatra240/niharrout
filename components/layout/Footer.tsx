@@ -74,7 +74,7 @@ export default function Footer() {
           <h2 className="text-3xl md:text-4xl">Stay connected w/ me.</h2>
           <div className="w-full md:w-auto">
             <Button
-              href="https://calendly.com/niharrout/book-call"
+              href="https://calendly.com/niharrout/call"
               variant="secondary"
             >
               Book a Call

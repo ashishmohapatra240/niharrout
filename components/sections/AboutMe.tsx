@@ -84,7 +84,7 @@ export default function AboutMe() {
             </div>
             <div className="flex flex-wrap gap-4 justify-center md:justify-start">
               <Button
-                href="https://calendly.com/niharrout/book-call"
+                href="https://calendly.com/niharrout/call"
                 className="w-full md:w-auto"
               >
                 Get in touch

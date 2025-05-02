@@ -52,7 +52,7 @@ const Navbar = () => {
                 {link.label}
               </a>
             ))}
-            <Button href="https://calendly.com/niharrout/book-call" variant="secondary">
+            <Button href="https://calendly.com/niharrout/call" variant="secondary">
               Let&apos;s Talk
             </Button>
           </div>
@@ -90,7 +90,7 @@ const Navbar = () => {
                   {link.label}
                 </a>
               ))}
-              <Button href="https://calendly.com/niharrout/book-call" variant="secondary">
+              <Button href="https://calendly.com/niharrout/call" variant="secondary">
                 Let&apos;s Talk
               </Button>
             </div>

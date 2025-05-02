@@ -34,7 +34,7 @@ export default function ContactCTA() {
           extraordinary. Are you ready to take that leap?
         </p>
         <Button
-          href="https://calendly.com/niharrout/book-call"
+          href="https://calendly.com/niharrout/call"
           variant="primary"
         >
           Start Dreaming
