@@ -71,15 +71,32 @@ export default function AboutMe() {
             <div className="space-y-6">
               <h3 className="text-2xl font-medium">Vision & Approach</h3>
               <p className="text-lg text-neutral-600">
-                I am not just a creator of software; I am a weaver of
-                experiences, a sculptor of visions, and a catalyst for
-                transforming ideas into tangible realities with precision and
-                care.
+                Every idea begins as a whisper—fragile, uncertain, and full of
+                hope. I’ve always believed that the true magic lies not just in
+                building software, but in giving those whispers a voice, a
+                shape, and a soul.
               </p>
               <p className="text-lg text-neutral-600">
-                For me, every project I embark on is more than mere
-                code—it&apos;s a transformative journey, a captivating story,
-                and a significant stride towards something extraordinary.
+                Over the years, I’ve met dreamers with brilliant ideas, each
+                waiting for someone to believe in them as much as they believed
+                in themselves. I saw myself in their passion—in their sleepless
+                nights, in their scribbled notebooks, and in their eyes that
+                quietly said, “This could change everything.”
+              </p>
+              <p className="text-lg text-neutral-600">
+                My vision is to walk beside those dreamers. To take an idea, no
+                matter how raw or rough, and gently guide it into becoming
+                something real. Something beautiful. Something that speaks.
+              </p>
+              <p className="text-lg text-neutral-600">
+                At Creuto, and in every journey I take, I don’t just build
+                products. I build possibilities. I pour my heart into every line
+                of code, every design, and every interaction—because to me,
+                every project is a life waiting to begin.
+              </p>
+              <p className="text-lg text-neutral-600">
+                If you have a dream you&apos;re ready to bring to life, I&apos;m
+                already listening.
               </p>
             </div>
             <div className="flex flex-wrap gap-4 justify-center md:justify-start">

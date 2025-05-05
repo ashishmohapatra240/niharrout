@@ -107,9 +107,9 @@ const Services = () => {
           viewport={{ once: true }}
           className="mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-medium mb-4">Our Services</h2>
+          <h2 className="text-4xl md:text-5xl font-medium mb-4">What I Do?</h2>
           <p className="text-neutral-600 max-w-2xl ml-0">
-            Comprehensive technology solutions tailored to your business needs
+            Comprehensive technology solutions tailored to your business needs
           </p>
         </motion.div>
 
@@ -156,4 +156,4 @@ const Services = () => {
   );
 };
 
-export default Services; 
+export default Services;
